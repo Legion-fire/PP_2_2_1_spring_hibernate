@@ -77,12 +77,12 @@ public class User {
 
    @Override
    public String toString() {
-      return "User{" +
+      return "" + '\n' +
+              "User{" +
               "id=" + id +
               ", firstName='" + firstName + '\'' +
               ", lastName='" + lastName + '\'' +
               ", email='" + email + '\'' +
-              ", car=" + car +
               '}';
    }
 }
