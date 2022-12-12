@@ -2,6 +2,8 @@ package hiber.model;
 
 import javax.persistence.*;
 
+
+
 @Entity
 @Table(name = "Cars")
 public class Car {
@@ -21,9 +23,6 @@ public class Car {
            this.model = model;
            this.series = series;
        }
-
-       @OneToOne
-       private User user;
 
     public Long getId() {
         return id;

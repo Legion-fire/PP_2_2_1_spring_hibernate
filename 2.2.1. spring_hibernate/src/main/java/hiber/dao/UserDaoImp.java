@@ -1,7 +1,5 @@
 package hiber.dao;
 
-
-
 import hiber.model.User;
 import org.hibernate.HibernateException;
 import org.hibernate.Session;
